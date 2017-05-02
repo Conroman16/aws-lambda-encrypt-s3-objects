@@ -1,0 +1,23 @@
+{
+  "name": "aws-lambda-encrypt-s3-objects",
+  "version": "1.0.0",
+  "description": "An AWS Lambda function to encrypt S3 objects using server-side AES256 encryption \r as they are added to the bucket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conroman16/aws-lambda-encrypt-s3-objects.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Conroman16/aws-lambda-encrypt-s3-objects/issues"
+  },
+  "homepage": "https://github.com/Conroman16/aws-lambda-encrypt-s3-objects#readme",
+  "dependencies": {
+    "async": "^2.4.0",
+    "aws-sdk": "^2.48.0"
+  }
+}
